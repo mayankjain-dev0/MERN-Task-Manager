@@ -38,11 +38,11 @@ cd backend
 npm install
 ```
 **Create a .env file:**
-MONGO_URI=your_mongodb_atlas_connection_string
+- MONGO_URI=your_mongodb_atlas_connection_string
 
-JWT_SECRET=your_secret_key
+- JWT_SECRET=your_secret_key
 
-PORT=5000
+- PORT=5000
 
 **Run the server:**
 ```bash
