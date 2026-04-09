@@ -15,12 +15,12 @@ A full-stack MERN application that allows users to securely register, log in, an
 ---
 
 ## 🛠️ Tech Stack
-**Frontend:** React, React Router, Axios, Context API  
-**Backend:** Node.js, Express.js  
-**Database:** MongoDB Atlas (cloud)  
-**Authentication:** JWT, bcrypt  
-**Security:** Helmet, CORS  
-**Deployment:** Render (backend), Vercel/Netlify (frontend), GitHub (repo hosting)  
+- **Frontend:** React, React Router, Axios, Context API  
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB Atlas (cloud)  
+- **Authentication:** JWT, bcrypt  
+- **Security:** Helmet, CORS  
+- **Deployment:** Render (backend), Vercel/Netlify (frontend), GitHub (repo hosting)  
 
 ---
 
@@ -39,7 +39,9 @@ npm install
 ```
 **Create a .env file:**
 MONGO_URI=your_mongodb_atlas_connection_string
+
 JWT_SECRET=your_secret_key
+
 PORT=5000
 
 **Run the server:**
