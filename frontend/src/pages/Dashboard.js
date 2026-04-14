@@ -7,7 +7,11 @@ const Dashboard = () => {
   useEffect(() => {
     const fetchTask = async () => {
       const token = localStorage.getItem("token");
-      const res = await axios.get("http://localhost:5000/api/tasks", {
+      if (!token) {
+        window.location.href = "/login";
+        return;
+      }
+      const res = await axios.get(`${process.env.REACT_APP_API_URL}/api/tasks`, {
         headers: { Authorization: token },
       });
       setTasks(res.data);
